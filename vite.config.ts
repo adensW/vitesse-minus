@@ -19,7 +19,7 @@ export default defineConfig({
 
   plugins: [
     Vue({
-      include: [/\.vue$/, /\.md$/],
+      include: [/\.vue$/],
       reactivityTransform: true,
     }),
 
